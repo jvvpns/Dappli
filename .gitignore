@@ -65,6 +65,11 @@ macos/**/Flutter/ephemeral/
 .env*
 !.env.example
 
+# Firebase — contains real API keys, never commit
+lib/firebase_options.dart
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
 # Symbolication
 app.*.symbols
 
